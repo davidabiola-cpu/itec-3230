@@ -338,6 +338,59 @@ section[id] {
   border-radius: 50%;
 }
 
+.detail-visual {
+  min-height: 100%;
+}
+
+.detail-panel {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.detail-metric {
+  padding: 16px;
+  background: rgba(255, 255, 255, 0.04);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 18px;
+}
+
+.detail-metric strong {
+  display: block;
+  margin-bottom: 4px;
+  font-size: 20px;
+  color: #fff;
+}
+
+.detail-metric span {
+  color: #a8afbb;
+  font-size: 14px;
+}
+
+.detail-chicken {
+  background-image: url('images/chicken-real.png');
+}
+
+.detail-beef {
+  background-image: url('images/beef-real.png');
+}
+
+.detail-classic {
+  background-image: url('images/classic-real.png');
+}
+
+.detail-paneer {
+  background-image: url('images/paneer-real.png');
+}
+
+.detail-fish {
+  background-image: url('images/classic-real.png');
+}
+
+.detail-egg {
+  background-image: url('images/beef-real.png');
+}
+
 @media (max-width: 991.98px) {
   .image-frame {
     min-height: 380px;
