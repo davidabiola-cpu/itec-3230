@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ShawarmaGo | Item Details</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-shell sticky-top">
+    <div class="container py-3">
+      <div class="d-flex flex-wrap align-items-center justify-content-between gap-3">
+        <a class="navbar-brand m-0 brand-mark" href="index.html">SHAWARMA<span>GO</span></a>
+        <nav class="d-flex flex-wrap align-items-center justify-content-end gap-2 nav-links">
+          <a class="nav-link" href="index.html">Home</a>
+          <a class="nav-link active" href="menu.html">Menu</a>
+          <a class="nav-link" href="offers.html">Offers</a>
+          <a class="nav-link" href="track-order.html">Track Order</a>
+          <a class="nav-link" href="profile.html">Profile</a>
+          <a class="btn btn-brand btn-sm px-4" href="order-now.html">Order Now</a>
+        </nav>
+      </div>
+    </div>
+  </header>
+
+  <main class="py-5">
+    <div class="container">
+      <div class="mb-4">
+        <span class="section-eyebrow">Menu / Item Details</span>
+        <h1 class="section-title mb-0">See what's inside your favorite wrap</h1>
+      </div>
+
+      <div class="row g-4 align-items-stretch">
+        <div class="col-lg-6">
+          <div id="detailImage" class="image-frame detail-visual detail-chicken"></div>
+        </div>
+
+        <div class="col-lg-6">
+          <article class="surface-card h-100 p-4 p-lg-5 detail-panel">
+            <span id="itemBadge" class="section-eyebrow">Popular</span>
+            <h2 id="itemName" class="section-title">Chicken Shawarma</h2>
+
+            <div class="d-flex flex-wrap gap-2 mb-3">
+              <span id="itemRating" class="badge rounded-pill badge-soft px-3 py-2">⭐ 4.9/5</span>
+              <span id="itemPrice" class="badge rounded-pill badge-soft px-3 py-2">$15</span>
+            </div>
+
+            <p id="itemDescription" class="hero-text mb-4">
+              Tender grilled chicken with garlic sauce, crisp lettuce, and warm pita.
+            </p>
+
+            <div class="row g-3 mb-4">
+              <div class="col-sm-6">
+                <div class="detail-metric h-100">
+                  <strong id="itemCalories">540 kcal</strong>
+                  <span>Calories</span>
+                </div>
+              </div>
+              <div class="col-sm-6">
+                <div class="detail-metric h-100">
+                  <strong id="itemPrepTime">15 min</strong>
+                  <span>Prep time</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="d-flex flex-wrap gap-3">
+              <a class="btn btn-brand px-4" href="order-now.html">Order This Item</a>
+              <a class="btn btn-outline-soft px-4" href="menu.html">Back to Menu</a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
